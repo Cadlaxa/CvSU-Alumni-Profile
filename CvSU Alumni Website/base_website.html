@@ -305,10 +305,14 @@
 	<!-- luxy.js for smooth scrolling -->
 	<script src="/CvSU Alumni Website/luxy.js"></script>
 	<script charset="utf-8">
-		luxy.init({
+		var Touch = 'ontouchstart' in window || navigator.msMaxTouchPoints;
+	  if (typeof Touch === 'undefined') {
+		// Init Luxy.js
+		  luxy.init({
 			wrapper: '#luxy',
-			wrapperSpeed: 0.08
+			wrapperSpeed: 0.065,
 		});
+	}
 	</script>
 </body>
 

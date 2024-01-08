@@ -151,12 +151,16 @@
     <script src="/CvSU Alumni Website/dark-mode-toggle.js"></script>
     </script>
     <!-- luxy.js for smooth scrolling -->
-    <script src="/CvSU Alumni Website/luxy.js"></script>
-    <script charset="utf-8">
-    luxy.init({
-        wrapper: '#luxy',
-        wrapperSpeed: 0.08
-    });
+	<script src="/CvSU Alumni Website/luxy.js"></script>
+	<script charset="utf-8">
+		var Touch = 'ontouchstart' in window || navigator.msMaxTouchPoints;
+	  if (typeof Touch === 'undefined') {
+		// Init Luxy.js
+		  luxy.init({
+			wrapper: '#luxy',
+			wrapperSpeed: 0.065,
+		});
+	}
 </script>
 </body>
 
