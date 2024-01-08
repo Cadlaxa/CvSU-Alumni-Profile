@@ -37,6 +37,7 @@
 
     <!-- Dark Reader API via jsDelivr CDN-->
     <script src="/CvSU Alumni Website/darkreader.min.js"></script>
+</script>
 </head>
 
 <body>
@@ -45,6 +46,7 @@
 <div class="dark-mode-toggle">
     <i class="gg-moon"></i>
 </div>
+<div class="main" id="luxy">
     <div data-collapse="small" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease"
         role="banner" class="nav-bar w-nav">
         <div class="nav-container w-container">
@@ -335,6 +337,15 @@
 
     <!-- JS for toggling dark mode -->
     <script src="/CvSU Alumni Website/dark-mode-toggle.js"></script>
+    </script>
+    <!-- luxy.js for smooth scrolling -->
+    <script src="/CvSU Alumni Website/luxy.js"></script>
+    <script charset="utf-8">
+    luxy.init({
+        wrapper: '#luxy',
+        wrapperSpeed: 0.08
+    });
+</script>
 </body>
 
 </html>
