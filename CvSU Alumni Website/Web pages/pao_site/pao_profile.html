@@ -43,9 +43,7 @@
     <link
         href="/CvSU Alumni Website/Assets/CvSU logo minimal.svg"
         rel="apple-touch-icon" />
-    <script
-        type="text/javascript">window.__WEBFLOW_CURRENCY_SETTINGS = { "currencyCode": "USD", "symbol": "$", "decimal": ".", "fractionDigits": 2, "group": ",", "template": "{{wf {\"path\":\"symbol\",\"type\":\"PlainText\"} }} {{wf {\"path\":\"amount\",\"type\":\"CommercePrice\"} }} {{wf {\"path\":\"currencyCode\",\"type\":\"PlainText\"} }}", "hideDecimalForWholeNumbers": false };</script>
-
+    
     <!-- Get css icons from css.gg -->
     <link href="/CvSU Alumni Website/sun moon.css" rel="stylesheet">
 
@@ -54,6 +52,7 @@
 
     <!-- Dark Reader API via jsDelivr CDN -->
     <script src="/CvSU Alumni Website/darkreader.min.js"></script>
+
 </head>
 
 <body>
@@ -102,13 +101,13 @@
                             <div class="mask w-slider-mask">
                                 <div class="w-slide"><img loading="lazy"
                                         src="/CvSU Alumni Website/Assets/pao files/pao icon cover 1.png"
-                                        alt="" class="image" /></div>
+                                        alt="" class="image" onclick="showImageModal(this.src)"/></div>
                                 <div class="w-slide"><img loading="lazy" 
                                         src="/CvSU Alumni Website/Assets/pao files/pao cvsu alumni 1.png" 
-                                        alt="" class="image" /></div>
+                                        alt="" class="image" onclick="showImageModal(this.src)"/></div>
                                 <div class="w-slide"><img loading="lazy" 
                                     src="/CvSU Alumni Website/Assets/pao files/pao_pe.jpeg"
-                                    alt="" class="image" /></div>
+                                    alt="" class="image" onclick="showImageModal(this.src)"/></div>
                             </div>
                             <div class="w-slider-arrow-left">
                                 <div class="w-icon-slider-left"></div>
@@ -118,6 +117,15 @@
                             </div>
                             <div class="w-slider-nav w-slider-nav-invert w-round w-num"></div>
                         </div>
+                    </div>
+                    <!-- Modal -->
+                    <div id="myModal" class="modal">
+                        <!-- The Close Button -->
+                        <span class="close" onclick="closeImageModal()">&times;</span>
+                        <!-- Modal Content (The Image) -->
+                        <img class="modal-content" id="img01">
+                        <!-- Modal Caption (Image Text) -->
+                        <div id="caption"></div>
                     </div>
                 </div>
             </div>

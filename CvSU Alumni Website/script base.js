@@ -36954,3 +36954,31 @@ var themeColorTest = new function() {
   }
 };
 themeColorTest.init();
+
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var images = document.querySelectorAll(".image");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+
+images.forEach(function(image) {
+    image.addEventListener("click", function() {
+        showImageModal(this.src);
+    });
+});
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+function closeImageModal() {
+    modal.style.display = "none";
+}
+
+function showImageModal(src) {
+    modal.style.display = "block";
+    modalImg.src = src;
+    captionText.innerHTML = "";
+}

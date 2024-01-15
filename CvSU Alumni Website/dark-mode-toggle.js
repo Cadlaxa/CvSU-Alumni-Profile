@@ -7,6 +7,7 @@ function toggleDarkMode(newState) {
     .search-section,
     .button,
     .logo,
+    .adrian-block-quote,
     img[src*="CvSU Alumni Website/Assets/logo.svg"] {
         filter: invert(1);
         transition: filter 0.5s ease;
@@ -49,6 +50,7 @@ function toggleDarkMode(newState) {
     .search-section,
     .button,
     .logo,
+    .adrian-block-quote,
     img[src*="CvSU Alumni Website/Assets/logo.svg"] {
         transition: filter 0.5s ease;
     }
