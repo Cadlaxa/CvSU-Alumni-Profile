@@ -2593,6 +2593,17 @@ figcaption {
   padding-bottom: 32px;
 }
 
+.section.gab-page-header {
+  background-color: var(--black);
+  color: var(--white);
+  background-image: radial-gradient(circle at 0%, rgba(202, 29, 29, 0.5), rgba(0, 0, 0, 0) 47%), radial-gradient(circle at 30% 150%, rgb(255, 217, 161), rgba(0, 0, 0, 0) 58%), linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("/CvSU Alumni Website/Assets/Imus-Campus-scaled.jpg");
+  background-position: 0 0, 0 0, 0 0, 50% 35%;
+  background-repeat: repeat, repeat, repeat, repeat;
+  background-size: auto, auto, auto, cover;
+  padding-top: 96px;
+  padding-bottom: 32px;
+}
+
 .section.black-gradient {
   background-color: var(--black);
   background-image: radial-gradient(circle farthest-corner at 0% 50%, var(--cvsu-light-green), rgba(0, 0, 0, 0) 35%), radial-gradient(circle farthest-corner at 40% 130%, rgba(252, 255, 89, .5), rgba(0, 0, 0, 0) 58%);
@@ -4391,6 +4402,15 @@ figcaption {
 
 .charlito-block-quote {
   background-color: #55e2e8;
+  border: 1px #000;
+  border-radius: 20px;
+  font-family: Merriweather, serif;
+  font-weight: 700;
+  box-shadow: 0 6px 5px rgba(0, 0, 0, .2);
+}
+
+.gab-block-quote {
+  background-color: #ff4747;
   border: 1px #000;
   border-radius: 20px;
   font-family: Merriweather, serif;
