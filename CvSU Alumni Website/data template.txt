@@ -1,5 +1,7 @@
-<p class="paragraph medium">Nickname: name</p>
-<p class="paragraph medium">Age: current age nyo + 4 years</p>
-<p class="paragraph medium">Favorite Color: Mint Green</p>
-<p class="paragraph medium">Birthdate: Month day, year</p>
-<p class="paragraph medium">Email: @cvsu.edu.ph</p>
+Description/info about yourself: 
+Nickname: name
+Age: current age nyo + 4 years
+Favorite Color:
+Birthdate: Month day, year
+Email: @cvsu.edu.ph
+quotations nyo any kind:
