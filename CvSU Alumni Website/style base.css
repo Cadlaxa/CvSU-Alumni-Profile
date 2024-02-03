@@ -1164,6 +1164,12 @@ textarea.w-input, textarea.w-select {
   text-align: left;
   display: inline-block;
   position: relative;
+  overflow: hidden;
+}
+.w-slide img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .w-slider-nav {
