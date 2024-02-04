@@ -1157,7 +1157,6 @@ textarea.w-input, textarea.w-select {
 }
 
 .w-slide {
-  aspect-ratio: 3/4;
   vertical-align: top;
   width: auto;
   height: auto;
@@ -2625,10 +2624,43 @@ figcaption {
   padding-bottom: 32px;
 }
 
+.section.white-page-header {
+  background-color: var(--black);
+  color: var(--white);
+  background-image: radial-gradient(circle at 0%, rgba(233, 233, 233, 0.5), rgba(0, 0, 0, 0) 47%), radial-gradient(circle at 30% 150%, rgb(59, 59, 59), rgba(0, 0, 0, 0) 58%), linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("/CvSU Alumni Website/Assets/Imus-Campus-scaled.jpg");
+  background-position: 0 0, 0 0, 0 0, 50% 35%;
+  background-repeat: repeat, repeat, repeat, repeat;
+  background-size: auto, auto, auto, cover;
+  padding-top: 96px;
+  padding-bottom: 32px;
+}
+
+.section.gray-page-header {
+  background-color: var(--black);
+  color: var(--white);
+  background-image: radial-gradient(circle at 0%, rgba(85, 85, 85, 0.5), rgba(0, 0, 0, 0) 47%), radial-gradient(circle at 30% 150%, rgb(216, 216, 216), rgba(0, 0, 0, 0) 58%), linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("/CvSU Alumni Website/Assets/Imus-Campus-scaled.jpg");
+  background-position: 0 0, 0 0, 0 0, 50% 35%;
+  background-repeat: repeat, repeat, repeat, repeat;
+  background-size: auto, auto, auto, cover;
+  padding-top: 96px;
+  padding-bottom: 32px;
+}
+
 .section.darkteal-page-header {
   background-color: var(--black);
   color: var(--white);
   background-image: radial-gradient(circle at 0%, rgba(19, 54, 40, 0.5), rgba(0, 0, 0, 0) 47%), radial-gradient(circle at 30% 150%, rgb(161, 255, 184), rgba(0, 0, 0, 0) 58%), linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("/CvSU Alumni Website/Assets/Imus-Campus-scaled.jpg");
+  background-position: 0 0, 0 0, 0 0, 50% 35%;
+  background-repeat: repeat, repeat, repeat, repeat;
+  background-size: auto, auto, auto, cover;
+  padding-top: 96px;
+  padding-bottom: 32px;
+}
+
+.section.green-page-header {
+  background-color: var(--black);
+  color: var(--white);
+  background-image: radial-gradient(circle at 0%, rgba(47, 95, 76, 0.5), rgba(0, 0, 0, 0) 47%), radial-gradient(circle at 30% 150%, rgb(161, 255, 184), rgba(0, 0, 0, 0) 58%), linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("/CvSU Alumni Website/Assets/Imus-Campus-scaled.jpg");
   background-position: 0 0, 0 0, 0 0, 50% 35%;
   background-repeat: repeat, repeat, repeat, repeat;
   background-size: auto, auto, auto, cover;
@@ -4493,6 +4525,24 @@ figcaption {
   box-shadow: 0 6px 5px rgba(0, 0, 0, .2);
 }
 
+.gray-block-quote {
+  background-color: #a5a5a5;
+  border: 1px #000;
+  border-radius: 20px;
+  font-family: Merriweather, serif;
+  font-weight: 700;
+  box-shadow: 0 6px 5px rgba(0, 0, 0, .2);
+}
+
+.white-block-quote {
+  background-color: whitesmoke;
+  border: 1px #000;
+  border-radius: 20px;
+  font-family: Merriweather, serif;
+  font-weight: 700;
+  box-shadow: 0 6px 5px rgba(0, 0, 0, .2);
+}
+
 .darkteal-block-quote {
   background-color: #255c57;
   border: 1px #000;
@@ -4502,6 +4552,17 @@ figcaption {
   font-weight: 700;
   box-shadow: 0 6px 5px rgba(0, 0, 0, .2);
 }
+
+.green-block-quote {
+  background-color: #355e3b;
+  border: 1px #000;
+  border-radius: 20px;
+  font-family: Merriweather, serif;
+  color: whitesmoke;
+  font-weight: 700;
+  box-shadow: 0 6px 5px rgba(0, 0, 0, .2);
+}
+
 .darkblue-block-quote {
   background-color: #36266d;
   border: 1px #000;
