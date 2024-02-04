@@ -1157,6 +1157,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .w-slide {
+  aspect-ratio: 3/4;
   vertical-align: top;
   width: auto;
   height: auto;
