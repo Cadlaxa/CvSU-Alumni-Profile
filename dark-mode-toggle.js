@@ -15,7 +15,7 @@ function toggleDarkMode(newState) {
     body, .nav-bar, .footer, .section, .light-color-gradient {
         transition: background-color 0.2s ease;
     }
-    img[src*="/CvSU-Alumni-Website/Assets/home logo.svg"] {
+    img[src*="/CvSU-Alumni-Profile/Assets/home logo.svg"] {
         transition: background-color 0.2s ease;
     }
 </style>`;
@@ -57,7 +57,7 @@ function toggleDarkMode(newState) {
     body, .nav-bar, .footer, .section, .light-color-gradient {
         transition: background-color 0.2s ease;
     }
-    img[src*="/CvSU-Alumni-Website/Assets/home logo.svg"] {
+    img[src*="/CvSU-Alumni-Profile/Assets/home logo.svg"] {
         fill: #ffffff;
         transition: fill 0.5s ease;
     }
